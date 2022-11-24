@@ -1,0 +1,85 @@
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #fafafa; */
+    background-color: rgb(63, 160, 160); 
+    padding-left: 2%;
+    /*Afastar texto da borda esquerda do form */
+    padding-right: 2%;
+    /*Afastar texto da borda direita do form */
+}
+
+p, h1, h2 {
+    color: white;
+
+}
+
+hr{
+    border: 2px solid;
+    color: white;
+}
+
+#img_principal {
+    text-align: center;
+
+}
+
+.imgprincipal {
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin: auto;
+    float: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-blue, .card-black, .card-green, .card-red {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    height: 300px;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+.card-blue:hover, .card-black:hover, .card-green:hover, .card-red:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card-blue, .card-black, .card-green, .card-red, p,h2 {
+    color: #2d2da3;
+    font-size: 24px;
+}
+
+/* Definindo tamanho da imagen */
+.image {
+    width: 120px;
+    height: 30px;
+    
+}
+
+/* Cores das bordas laterais */
+.card-blue {
+    border-left: 3px solid blue;
+}
+
+.card-green {
+    border-left: 3px solid green;
+}
+
+.card-red {
+    border-left: 3px solid red;
+}
+
+.card-black{
+    border-left: 3px solid black;
+}
